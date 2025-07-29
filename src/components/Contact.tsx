@@ -424,7 +424,7 @@ const globeConfig = {
 const Contact = () => {
 
    const [state, handleSubmit] = useForm("xkgzolak");
-  if (true) {
+  if (state.succeeded) {
       return <div id="Contact" className="w-full h-auto flex-col flex justify-center items-center pb-20 bg-black overflow-hidden">
         <div className='flex justify-center items-center mb-20 w-full flex-col'>
             <div className={`${michroma.className} text-3xl md:text-6xl text-white font-bold `}>Contact <span className={`${poiret_one.className} text-blue-500`}><b><i>Me</i></b></span></div>
