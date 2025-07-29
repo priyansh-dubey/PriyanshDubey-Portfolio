@@ -106,7 +106,7 @@ export function Hero() {
           text="OPEN*TO*WORK*"
           onHover="speedUp"
           spinDuration={20}
-          className={`${goldman.className} custom-class invisible md:visible`}
+          className={`${goldman.className} custom-class z-100 invisible md:visible`}
         />
         <motion.div 
            initial={{scale:0, opacity:0, x:-100,y:0}}
